@@ -1,0 +1,41 @@
+.main{
+   display: flex;
+   background-color: #FFDDC5;
+   height: auto;
+  
+}
+
+.imgdiv{
+  max-width: 20%;
+}
+
+.imgdirect{
+   max-width: 100%;
+}
+.textdiv{
+   /* margin: 20px; */
+   margin: auto;
+   padding: 18px;
+}
+
+@media only screen and (max-width: 750px) {
+   .main{
+      display: flex;
+      flex-direction: column;
+      background-color: #FFDDC5;
+   }
+
+   .imgdiv{
+      max-width: 80%;
+      margin: auto;
+    }
+    
+    .imgdirect{
+       max-width: 100%;
+       margin: auto;
+    }
+    .textdiv{
+      padding: '0px 18px ',
+
+  }
+ }
